@@ -1,0 +1,92 @@
+
+body{
+    padding: 0%;
+    width: 100%;
+    margin: 0px;
+    display: inline-flex;
+}
+
+.fboxside{
+    display: flex;
+    height: 100vh;
+}
+
+.pagin{
+    display: block;
+    height: 100vh;
+    background-color: #04AA6D;
+    overflow: auto;
+    scroll-behavior: smooth;
+    box-shadow: 0px 15px 10px -10px #555 inset;
+}
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0px;
+    width: 200px;
+    background-color: #f1f1f1;
+    overflow: auto;
+    text-align: center;
+    position: sticky;
+}
+  /* Sidebar links */
+.sidebar a {
+    display: flex;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    justify-self: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    align-items: center;
+}
+  /* Active/current link */
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+    box-shadow: 7px 15px 10px -10px #555 inset;
+}
+  /* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+.ppic{
+    border-radius: 50%;
+    width: 60%;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.nome{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.icons{
+    width: 40px;
+}
+
+.sobre{
+    display: flex;
+}
+
+.conteudo{
+    padding: 50px;
+}
+
+.conteudo p{
+    padding: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 7px 15px 10px -10px #555;
+}
