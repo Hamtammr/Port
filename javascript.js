@@ -1,4 +1,10 @@
 
+
+
+// Esta função controla a mudança de estilos definidos da sidebar, para adicionar o efeito de selecionado
+// é uma função simples mas que me ajudou bastante a entender como o javascript funciona
+
+
 function noclick(event){
     var clicado = event.target
     

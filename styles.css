@@ -3,7 +3,7 @@ body{
     padding: 0%;
     width: 100%;
     margin: 0px;
-    display: inline-flex;
+    display: flex;
 }
 
 .fboxside{
@@ -14,13 +14,14 @@ body{
 .pagin{
     display: block;
     height: 100vh;
+    width: 100%;
     background-color: #04AA6D;
     overflow: auto;
     scroll-behavior: smooth;
     box-shadow: 0px 15px 10px -10px #555 inset;
 }
 
-/* The side navigation menu */
+
 .sidebar {
     margin: 0;
     padding: 0px;
@@ -30,7 +31,7 @@ body{
     text-align: center;
     position: sticky;
 }
-  /* Sidebar links */
+
 .sidebar a {
     display: flex;
     color: black;
@@ -43,18 +44,18 @@ body{
     font-size: 25px;
     align-items: center;
 }
-  /* Active/current link */
+
 .sidebar a.active {
     background-color: #04AA6D;
     color: white;
     box-shadow: 7px 15px 10px -10px #555 inset;
 }
-  /* Links on mouse-over */
+
 .sidebar a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
-  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+
 div.content {
     margin-left: 200px;
     padding: 1px 16px;
@@ -87,6 +88,64 @@ div.content {
 
 .conteudo p{
     padding: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 7px 15px 10px -10px #555;
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 20px;
+    font-size: 20px;
+}
+
+.formac {
+    display: flex;
+}
+
+.formacont {
+padding: 50px;
+}
+
+.formacont ol{
+    padding: 50px;
+    width: 76%;
+    background-color: #f1f1f1;
+    box-shadow: 7px 15px 10px -10px #555;
+    text-decoration: none;
+    text-indent: 20px;
+    font-size: 20px;
+}
+
+.habil {
+    display: flex;
+}
+
+.habilcont {
+    padding: 50px;
+}
+
+.habilcont ol{
+    padding: 50px;
+    width: 76%;
+    background-color: #f1f1f1;
+    box-shadow: 7px 15px 10px -10px #555;
+    text-decoration: none;
+    text-indent: 20px;
+    font-size: 20px;
+}
+
+.contatos{
+    display: flex;
+}
+
+.contacont{
+    padding: 50px; 
+    text-decoration: none;
+    text-indent: 20px;
+    font-size: 20px;
+}
+
+.contacont ul{
+    padding: 50px;
+    width: 76%;
     background-color: #f1f1f1;
     box-shadow: 7px 15px 10px -10px #555;
 }
